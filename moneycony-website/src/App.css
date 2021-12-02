@@ -36,3 +36,87 @@
     transform: rotate(360deg);
   }
 }
+
+.topnav {
+  display:flex;
+  color: #47525E;
+  font-family: Lato;
+  justify-content: space-evenly;
+  border: 1px solid #6394D9;
+  width: 1440px;
+  height: 89px;
+  font-size: 18px;
+  line-height: 62px;
+}
+
+.inboxIcon{
+  background-color: #027DE5;
+  width: 93px;
+  height: 74px;
+}
+.logomoney{
+  width: 141px;
+  height: 74px;
+
+}
+.bodytital{
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: left;
+  background-color: #00A6FF;
+  border-radius: 15px;
+  opacity: 0.9;
+  width: 440px;
+  height: 67px;
+}
+.Search{
+  display:flex;
+  float:right;
+  background-color: #FFFFFF;
+  border: 1px solid #00A6FF;
+  border-radius: 5px;
+  width: 264px;
+  height: 50px;
+  margin-right: auto;
+
+}
+.reminders{
+  margin: auto;
+  top:250px;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  background-color: #00A6FF;
+  width: 260px;
+  height: 68px;
+  
+
+
+}
+.Invites{
+  margin: auto;
+  top:350px;
+  color: #FFFFFF;
+  font-family: Lato;
+  font-size: 26px;
+  line-height: 33px;
+  text-align: center;
+  background-color: #00A6FF;
+  width: 260px;
+  height: 68px;
+
+}
+.search-icon{
+  color: "#027DE5";
+   float: right;
+}
+.p1{
+  text-align: "left";
+}
