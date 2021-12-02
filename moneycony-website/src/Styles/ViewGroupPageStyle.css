@@ -1,0 +1,230 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+img {
+    background-position: center
+}
+.c1 {
+    width: 20%;
+}
+.c2 {
+    width: 50%;
+}
+
+/*p.none {*/
+/*    border-style: none;border-bottom:1px solid #000*/
+/*}*/
+/*p.solid {*/
+/*    border-style: solid;*/
+/*}*/
+
+p.one {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    border-right:10px solid #000
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    text-align: center;
+    /*margin-bottom: 100px;*/
+}
+
+.column.header {
+    width: 33.33%;
+}
+
+
+.logo {
+    width: 5px;
+    height: 5px;
+}
+
+.mail {
+    width: 5px;
+    height: 5px;
+}
+
+.profile {
+    width: 5px;
+    height: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.blank1 {
+    padding: 30px;
+    background-color: #F3F3FF;
+}
+.blank2 {
+    padding: 30px;
+}
+.footer {
+    padding: 25px;
+    text-align: left;
+    background: #ddd;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* 创建并排的三个不相等的列 */
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.left {
+    width: 25%;
+    background-color: #F3F3FF;
+    height:600px;
+
+}
+
+.column.middle {
+    width: 37.5%;
+    background-color: white;
+    height:600px;
+    border-right:2px solid #000;
+    padding: 50px 30px 50px 80px
+
+}
+
+.column.right {
+    width: 37.5%;
+    background-color: white;
+    height:600px;
+    padding: 50px 30px 50px 80px
+}
+
+
+ul.member {
+    list-style-type: square;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height:30px
+}
+
+
+.button {
+    background-color: #00BBFF;
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-position: center;
+    display: block;
+    margin:10px auto
+}
+
+
+.Group {
+    border-radius: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 40%;
+    background-position: center;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Main {
+    border-radius: 12px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 40%;
+    background-position: center;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.SendRemind {
+    border-radius: 12px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 40%;
+    background-position: center;
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.column.left h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.column.middle p {
+    text-align: center;
+    mmargin-top: 30px;
+    margin-bottom: 30px;
+}
+.column.right h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.ToS h5 {
+    text-align: left;
+}
+
+.MoneyCony h5 {
+    text-align: right;
+}
+
+.column.ToS {
+    width: 50%;
+}
+
+.column.MoneyCony {
+    width: 50%;
+}
