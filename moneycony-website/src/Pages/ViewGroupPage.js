@@ -16,10 +16,10 @@ export default function ViewGroupPage(){
             </div>
              <div className='column header'>
                  <ul>
-                     <li><a href="#">Home</a></li>
-                     <li><a href="#">About</a></li>
-                     <li><a href="#">Groups</a></li>
-                     <li><a href="#">Pricing</a></li>
+                     <li><a href="www.google.com">Home</a></li>
+                     <li><a href="www.google.com">About</a></li>
+                     <li><a href="www.google.com">Groups</a></li>
+                     <li><a href="www.google.com">Pricing</a></li>
                  </ul>
              </div>
             <div className="column header" >
