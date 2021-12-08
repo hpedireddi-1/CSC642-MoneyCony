@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-img {
+/* img {
     background-position: center
-}
+} */
 .c1 {
     width: 20%;
 }
@@ -52,7 +52,7 @@ p.one {
 }
 
 
-.logo {
+/*.logo {
     width: 5px;
     height: 5px;
 }
@@ -65,7 +65,7 @@ p.one {
 .profile {
     width: 5px;
     height: 5px;
-}
+} */
 
 ul {
     list-style-type: none;
@@ -98,14 +98,14 @@ li a:hover {
 .blank2 {
     padding: 30px;
 }
-.footer {
+/* .footer {
     padding: 25px;
     text-align: left;
     background: #ddd;
     justify-content: center;
     align-items: center;
 
-}
+} */
 
 /* 创建并排的三个不相等的列 */
 .column {
@@ -204,7 +204,7 @@ ul.member {
 }
 .column.middle p {
     text-align: center;
-    mmargin-top: 30px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 .column.right h2 {

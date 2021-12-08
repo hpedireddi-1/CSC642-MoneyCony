@@ -1,32 +1,16 @@
-import Logo from "../Assets/logo.png";
-import Mail from "../Assets/mail.png";
-import Profile from "../Assets/profile.png";
 import Admin from "../Assets/admin.png";
+import Header from "./header";
 
 import '../Styles/ViewGroupPageStyle.css'
+import Footer from "./footer";
 
 export default function ViewGroupPage(){
 
     return(
 
         <>
-        <div className='header'>
-            <div className="column header">
-                <img src={Logo} alt={"logo"} class = 'c1'/>
-            </div>
-             <div className='column header'>
-                 <ul>
-                     <li><a href="www.google.com">Home</a></li>
-                     <li><a href="www.google.com">About</a></li>
-                     <li><a href="www.google.com">Groups</a></li>
-                     <li><a href="www.google.com">Pricing</a></li>
-                 </ul>
-             </div>
-            <div className="column header" >
-                <img src={Mail} alt={"mail"} class = 'c1'/>
-                <img src={Profile} alt={"profile"} class = 'c1'/>
-            </div>
-        </div>
+        <Header />
+
         <div className='blank1'>
         </div>
         <div className="row">
@@ -42,7 +26,7 @@ export default function ViewGroupPage(){
                     <div align="center">
                         <div className='blank2'>
                         </div>
-                        <img src={Admin} alt={"admin"} class = 'c2' />
+                        <img src={Admin} alt={"admin"} className = 'c2' />
                         <div className='blank2'>
                         </div>
                         <p className="one"></p>
@@ -66,14 +50,7 @@ export default function ViewGroupPage(){
 
             </div>
         </div>
-        <div className="footer">
-            <div className="column ToS">
-                <h5>Terms of Service</h5>
-            </div>
-            <div className="column MoneyCony">
-                <h5>@MoneyCony</h5>
-            </div>
-        </div>
+        <Footer />
         </>
     )
 }

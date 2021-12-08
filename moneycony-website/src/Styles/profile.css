@@ -1,0 +1,59 @@
+.profile-name {
+	position: absolute;
+	top: 11.914%;
+	left: 37.64%;
+	color: #59616f;
+	font-family: Bree Serif;
+	font-size: 40px;
+	line-height: 52px;
+	width: 357px;
+	text-align: center;
+}
+
+.profile-info {
+	position: absolute;
+	top: 20.12%;
+	left: 6.04%;
+	background-color: #ffffff;
+	border: 1px solid #6394d9;
+	border-radius: 8px;
+	width: 89.167%;
+	height: 67.48%;
+	color: #8190a5;
+	font-family: Lato;
+	font-size: 20px;
+	line-height: 50px;
+	text-align: left;
+}
+
+.edit-button {
+    position: absolute;
+	top: 76.562%;
+	left: 24.44%;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 26px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #027de5;
+	border: 3px solid #ffffff;
+	border-radius: 15px;
+	width: 260px;
+	height: 45px;
+}
+
+.changePassword-button {
+    position: absolute;
+	top: 76.562%;
+	left: 59.86%;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 26px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #f95f62;
+	border: 3px solid #ffffff;
+	border-radius: 15px;
+	width: 260px;
+	height: 45px;
+}

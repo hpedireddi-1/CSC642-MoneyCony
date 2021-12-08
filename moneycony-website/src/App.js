@@ -1,18 +1,32 @@
-//import Mainpage from "./Pages/Mainpage";
-import logo from './logo.svg';
 import './App.css';
-//import test from "./Pages/test";
-import ViewGroupPage from "./Pages/ViewGroupPage";
+import ViewGroupPage from './Pages/ViewGroupPage';
+import Home from './Pages/home';
+import CreateGroup from './Pages/createGroup';
+import Profile from './Pages/profile';
+import Reminder from './Pages/reminder';
+import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css"></link>
-import Mainpage from "./Pages/home.js";
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />;
+
+const AppRoutes = () => {
+	let routes = useRoutes([
+		{ path: '*', element: <Home /> },
+		{ path: '/profile', element: <Profile /> },
+		{ path: '/createGroup', element: <CreateGroup /> },
+		{ path: '/viewGroupPage', element: <ViewGroupPage /> },
+		{ path: '/reminder', element: <Reminder /> }
+	]);
+	return routes;
+};
 
 function App() {
-  return (
-   <>
-   <Mainpage/>
-   </>
-  );
+	return (
+		<div classname="full-page">
+			<Router>
+				<AppRoutes />
+			</Router>
+		</div>
+	);
 }
 
 export default App;
