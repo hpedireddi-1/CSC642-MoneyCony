@@ -1,6 +1,6 @@
 import React from 'react'
-import Mail from '../Assets/Mail.png'
-import Profile from '../Assets/Profile.png'
+import Mail from '../Assets/mail.png'
+import Profile from '../Assets/profile.png'
 import '../Styles/style.css'
 
 export default function Mainpage() {
