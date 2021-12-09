@@ -14,10 +14,10 @@ function Header() {
              <a href="/viewGroupPage" className="groups-link">Groups</a>
              <a href="/" className="pricing-link">Pricing</a>
              <a href='/reminder'>
-             <img className='mail-logo' src={mail}/>
+             <img className='mail-logo' alt="mail-logo" src={mail}/>
              </a>
              <a href='/profile'>
-             <img className='profile-logo' src={profile}/>
+             <img className='profile-logo' alt="profile-img" src={profile}/>
              </a>
          </div>
      </div>
