@@ -1,25 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import ViewGroupPage from './Pages/ViewGroupPage';
+import Home from './Pages/home';
+import CreateGroup from './Pages/createGroup';
+import Profile from './Pages/profile';
+import Reminder from './Pages/reminder';
+import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
+import CreateGroupPage from './Pages/createGroup';
+import Product from './Pages/Product';
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />;
+
+const AppRoutes = () => {
+	let routes = useRoutes([
+		{ path: '*', element: <Home /> },
+		{ path: '/profile', element: <Profile /> },
+		{ path: '/createGroup', element: <CreateGroup /> },
+		{ path: '/viewGroupPage', element: <ViewGroupPage /> },
+		{ path: '/reminder', element: <Reminder /> },
+		{ path: '/creategroup', element: <CreateGroupPage /> },
+		{ path: '/product', element: <Product /> }
+	]);
+	return routes;
+};
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div classname="full-page">
+			<Router>
+				<AppRoutes />
+			</Router>
+		</div>
+	);
 }
 
 export default App;
