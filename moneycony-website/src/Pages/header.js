@@ -7,7 +7,7 @@ function Header() {
     return (
      <div>
          <div className="menu">
-             <img className='logo' src={logo} alt="../Assets/logo.png"/>
+             <img className='logo-header' src={logo} alt="../Assets/logo.png"/>
 
              <a href="/home" className="home-link">Home</a>
              <a href="/profile" className="about-link">About</a>

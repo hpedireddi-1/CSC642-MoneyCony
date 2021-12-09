@@ -23,10 +23,11 @@ export default function Mainpage() {
                 </div>
                 <div className="useful-link">
                        <a href="/">Register a New Product</a>
-                       <a href="/">View Groups</a>
+                       <a href="/viewGroupPage">View Groups</a>
                        <a href="/creategroup">Create a new Group</a>
                 </div>
             </div>
+            <Footer />
 		</div>
     )
 }
