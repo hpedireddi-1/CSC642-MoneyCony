@@ -1,38 +1,120 @@
+.full-page {
+	background-color: #f3f3ff;
+}
+
 .App {
-  text-align: center;
+	text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+	height: 40vmin;
+	pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	background-color: #282c34;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
 }
 
 .App-link {
-  color: #61dafb;
+	color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.topnav {
+	display: flex;
+	color: #47525e;
+	font-family: Lato;
+	justify-content: space-evenly;
+	border: 1px solid #6394d9;
+	width: 1440px;
+	height: 89px;
+	font-size: 18px;
+	line-height: 62px;
+}
+
+.inboxIcon {
+	background-color: #027de5;
+	width: 93px;
+	height: 74px;
+}
+.logomoney {
+	width: 141px;
+	height: 74px;
+}
+.bodytital {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 26px;
+	line-height: 33px;
+	text-align: left;
+	background-color: #00a6ff;
+	border-radius: 15px;
+	opacity: 0.9;
+	width: 440px;
+	height: 67px;
+}
+.Search {
+	display: flex;
+	float: right;
+	background-color: #ffffff;
+	border: 1px solid #00a6ff;
+	border-radius: 5px;
+	width: 264px;
+	height: 50px;
+	margin-right: auto;
+}
+.reminders {
+	margin: auto;
+	top: 250px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 26px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #00a6ff;
+	width: 260px;
+	height: 68px;
+}
+.Invites {
+	margin: auto;
+	top: 350px;
+	color: #ffffff;
+	font-family: Lato;
+	font-size: 26px;
+	line-height: 33px;
+	text-align: center;
+	background-color: #00a6ff;
+	width: 260px;
+	height: 68px;
+}
+.search-icon {
+	color: "#027DE5";
+	float: right;
+}
+.p1 {
+	text-align: "left";
 }
