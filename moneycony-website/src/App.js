@@ -5,7 +5,6 @@ import CreateGroup from './Pages/createGroup';
 import Profile from './Pages/profile';
 import Reminder from './Pages/reminder';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
-import CreateGroupPage from './Pages/createGroup';
 import Product from './Pages/Product';
 import Construction from './Pages/Construction';
 
@@ -13,12 +12,14 @@ import Construction from './Pages/Construction';
 
 const AppRoutes = () => {
 	let routes = useRoutes([
-		{ path: '*', element: <Home /> },
+		{ path: '*', element: <Construction /> },
+		{ path: '/', element: <Home /> },
+		{ path: '/home', element: <Home /> },
 		{ path: '/profile', element: <Profile /> },
 		{ path: '/createGroup', element: <CreateGroup /> },
 		{ path: '/viewGroupPage', element: <ViewGroupPage /> },
 		{ path: '/reminder', element: <Reminder /> },
-		{ path: '/creategroup', element: <CreateGroupPage /> },
+		{ path: '/creategroup', element: <CreateGroup /> },
 		{ path: '/product', element: <Product /> },
 		{ path: '/construction', element: <Construction /> }
 	]);

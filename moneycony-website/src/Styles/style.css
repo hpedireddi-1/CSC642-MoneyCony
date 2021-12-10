@@ -265,3 +265,17 @@
     padding-top: 15%;
     padding-left: 33%;
 }
+
+.register-product-button{
+	text-align: center;
+	align-items: center;
+	justify-content: space-around;
+	width: 300px;
+	background-color: #027de5;
+	padding: 0.8rem 0rem;
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 7px;
+}

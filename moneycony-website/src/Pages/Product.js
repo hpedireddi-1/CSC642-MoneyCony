@@ -4,6 +4,11 @@ import Footer from './footer'
 import'../Styles/style.css'
 
 export default function Product() {
+
+    function registerProduct() {
+        alert('Product Registered!');
+      }
+
     return (
         <div>
             <Header/>
@@ -29,6 +34,7 @@ export default function Product() {
                     <div>
                         <input type="date" id="birthday" name="birthday"/>
                     </div>
+                    <button className="register-product-button" onClick={registerProduct}>Register Product</button>
                 </div>
             </div>
             <Footer/>
