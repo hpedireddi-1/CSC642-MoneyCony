@@ -20,6 +20,7 @@ export default function Product() {
                             <option>Group Selection</option>
                             <option>Group A</option>
                             <option>Group B</option>
+                            <option>Solo Purchase</option>
                         </select>
                     </div>
                     <div>

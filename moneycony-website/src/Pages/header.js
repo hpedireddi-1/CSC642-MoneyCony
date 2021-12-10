@@ -12,7 +12,7 @@ function Header() {
              <a href="/home" className="home-link">Home</a>
              <a href="/profile" className="about-link">About</a>
              <a href="/viewGroupPage" className="groups-link">Groups</a>
-             <a href="/" className="pricing-link">Pricing</a>
+             <a href="/construction" className="pricing-link">Pricing</a>
              <a href='/reminder'>
              <img className='mail-logo' alt="mail-logo" src={mail}/>
              </a>

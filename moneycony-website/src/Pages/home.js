@@ -10,9 +10,9 @@ export default function Mainpage() {
                 <div className="upcomming-paymet">
                     <h1>Upcoming Payment</h1>
                     <div className="payment-list"><br/>
-                        <li>Payment 1</li><br/>
-                        <li>Payment 2</li><br/>
-                        <li>Payment 3</li><br/>
+                        <li>Payment 1: Bill owes you $10 - Due December 21 2021</li><br/>
+                        <li>Payment 2: Kathy owes you $25 - Due December 24 2021</li><br/>
+                        <li>Payment 3: You owe John $50 - Due January 3 2022</li><br/>
                         <li>Payment 4</li><br/>
                         <li>Payment 5</li><br/>
                         <li>Payment 6</li><br/>
