@@ -22,7 +22,7 @@ export default function Mainpage() {
                     <a href="/">View All</a>
                 </div>
                 <div className="useful-link">
-                       <a href="/">Register a New Product</a>
+                       <a href="/product">Register a New Product</a>
                        <a href="/viewGroupPage">View Groups</a>
                        <a href="/creategroup">Create a new Group</a>
                 </div>

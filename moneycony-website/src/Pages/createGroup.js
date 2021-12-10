@@ -1,11 +1,14 @@
 import React from 'react'
 import Logo from '../Assets/logo.png'
 import '../Styles/group.css'
+import Header from './header'
 
 export default function CreateGroupPage() {
     return (
         <>
+       
         <div className="root-container">
+           <Header/>
   <div className="container">
     <div className="logo">
       <img src={Logo} alt="logo" />

@@ -6,6 +6,7 @@ import Profile from './Pages/profile';
 import Reminder from './Pages/reminder';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
 import CreateGroupPage from './Pages/createGroup';
+import Product from './Pages/Product';
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />;
 
@@ -16,7 +17,8 @@ const AppRoutes = () => {
 		{ path: '/createGroup', element: <CreateGroup /> },
 		{ path: '/viewGroupPage', element: <ViewGroupPage /> },
 		{ path: '/reminder', element: <Reminder /> },
-		{ path: '/creategroup', element: <CreateGroupPage /> }
+		{ path: '/creategroup', element: <CreateGroupPage /> },
+		{ path: '/product', element: <Product /> }
 	]);
 	return routes;
 };

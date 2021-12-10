@@ -84,7 +84,7 @@
 	padding: 2.4rem 1.2rem;
 	background-color: #f8f8f8;
 	display: flex;
-	margin-bottom: 2rem;
+	margin-bottom: 5rem;
 }
 .upcomming-paymet {
 	flex: 1;
@@ -120,7 +120,8 @@
 	border-radius: 7px;
 }
 
-.useful-link {
+.useful-link,
+.product-link {
 	text-align: center;
 	flex: 1;
 	display: flex;
@@ -211,4 +212,50 @@
 	float: none !important;
 	/* list-style: disc; */
 	margin: 0.5rem 0rem !important;
+}
+
+/******* product page ************/
+
+.search-product {
+	min-height: 400px;
+	max-width: 100%;
+	background-color: #fff;
+	padding: 1rem;
+	border: 1px solid #027de5;
+}
+
+.product-link a {
+	background-color: #fff !important;
+	color: #222;
+	border-radius: 0 !important;
+
+	/* border: 1px solid #027de5; */
+}
+.product-link div {
+	width: 350px;
+	height: 45px;
+	border: 1px solid #027de5;
+}
+.product-link select {
+	height: 100%;
+	width: 100%;
+	padding: 0rem 0.3rem;
+	outline: none;
+	border: none;
+	border: 1px solid #027de5;
+}
+.product-link input[type="date"] {
+	height: 100%;
+	width: 100%;
+	padding: 0rem 0.3rem;
+	outline: none;
+	border: none;
+	border: 1px solid #027de5;
+}
+.product-link a {
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
 }
